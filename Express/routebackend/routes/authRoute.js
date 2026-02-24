@@ -1,5 +1,5 @@
 import express from 'express'
-import { createUser } from '../controller/userController'
+import { createUser } from '../controller/userController.js'
 
 // API Link for xxxx Methods - http://localhost:5000/api/route/myroute/user 
 

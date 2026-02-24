@@ -10,8 +10,8 @@ import { adddata, getdatabynumber, getdataByQuery, getdataByheaders } from '../c
 const reqestRoute = express.Router()
 
 reqestRoute.post("/createdata",adddata)
-requestRoute.get("/getdatabyNumber/:useridbynumber",getdatabynumber)
-requestRoute.get("/getdatabyquery",getdataByQuery)
-requestRoute.get("/headers",getdataByheaders)
+reqestRoute.get("/getdatabyNumber/:useridbynumber",getdatabynumber)
+reqestRoute.get("/getdatabyquery",getdataByQuery)
+reqestRoute.get("/headers",getdataByheaders)
 
-export default requestRoute
+export default reqestRoute
